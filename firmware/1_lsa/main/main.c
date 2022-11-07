@@ -1,4 +1,4 @@
-#include "jagura.h"
+#include "jaguar.h"
 //this code will print the readings of LSA on terminal
 
 void app_main(void)
@@ -8,5 +8,6 @@ void app_main(void)
     while (1)
     {
         get_raw_lsa() ; //prints the value of readings 
+        vTaskDelay(100 / portTICK_PERIOD_MS); 
     }
 }
