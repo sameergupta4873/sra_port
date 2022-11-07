@@ -22,6 +22,3 @@ esp_err_t enable_lsa() ;
 int get_raw_lsa() ;
 
 #endif 
-
-
-#endif 

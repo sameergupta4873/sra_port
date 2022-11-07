@@ -1,4 +1,4 @@
-set(srcs "src/lsa.c" "src/motor_driver.c" "src/rotary_encoder.c" ) 
+set(srcs "src/lsa.c" ) 
 
 idf_component_register(SRCS "${srcs}"
                        INCLUDE_DIRS "include"
