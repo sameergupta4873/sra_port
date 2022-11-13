@@ -8,7 +8,7 @@ const OurSponsors = () => {
         <div className={styles.reachGroup}>
           {SponsorListImages.map((name, idx) => {
             return (
-              <a href={`${SponsorLinks[idx]}`}>
+              <a href={`${SponsorLinks[idx]}`} key={idx}>
                 <img
                   src={`/static/images/sponsors/${name}`}
                   alt=''

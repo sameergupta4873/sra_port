@@ -9,7 +9,7 @@ const OurReach = () => {
         <div className={styles.reachGroup}>
           {AlumniReachImgNames.map((name, idx) => {
             return (
-              <a href={`${AlumniReachLinks[idx]}`}>
+              <a href={`${AlumniReachLinks[idx]}`} key={idx}>
                 <img
                   src={`/static/images/reach/${name}`}
                   alt=''
